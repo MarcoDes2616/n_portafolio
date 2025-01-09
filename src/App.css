@@ -1,1 +1,36 @@
+.navbar_container {
+    display: flex;
+    padding: 0 20px;
+    height: 4rem;
+    box-shadow: 0 2px  0 rgba(17, 17, 17, 0.1);
+}
 
+.navbar_logo {
+    width: 200px;
+}
+
+.header_container {
+    background: linear-gradient(180deg, var(--primaryCC) 55%, #32393f 55.2%);
+    height: 100vh;
+    overflow: hidden;
+}
+
+.title_shadow_img {
+    position: absolute;
+    bottom: -50px;
+    left: calc(50% - 55vw);
+    width: calc(100% + 100px);
+    height: 420px;
+    object-fit: contain;
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+    .navbar_container {
+        padding: 0 10px;
+        height: 5rem;
+    }
+    
+}

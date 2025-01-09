@@ -9,20 +9,17 @@
 
 #root {
   width: 100vw;
-  max-width: var(--maxVW);
   margin: 0 auto;
-  background-color: var(--secondaryTC);
 }
 
 :root {
   --primaryTC: #fff;
   --secondaryTC: #161616;
-  --primaryC: #00FFBA;
-  --secondaryC: #0D635F;
-  --primaryCC: #0F3F76;
-  --secondaryCC: #cccccc;
-  --primaryHC: #ebc20f;
-  --secondaryHC: #00FFFF;
+  --primaryC: #29a688;
+  --secondaryC: #844cff;
+  --primaryCC: #30353b;
+  --secondaryCC: #3a4249;
+  --primaryHC: #08ddb8;
   --maxW: 1200px;
   --maxVW: 1368px;
 }
@@ -34,7 +31,7 @@ body {
   font-weight: 200;
   font-size: 12px;
   overflow-x: hidden;
-  background-color: #000;
+  background-color: var(--primaryCC);
   color: var(--primaryTC);
 }
 
@@ -201,6 +198,12 @@ textarea {
   padding: 0.3rem 0.8rem;
   color: var(--primary-text-color);
   border-radius: 5px;
+}
+
+.container_app {
+  width: 100%;
+  max-width: var(--maxVW);
+  margin: 0 auto;
 }
 
 @media screen and (min-width: 768px) {
