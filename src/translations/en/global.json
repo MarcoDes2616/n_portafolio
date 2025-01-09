@@ -1,7 +1,33 @@
 {
     "header": {
-        "hi": "Hi,",
-        "my_name": "my name is",
-        "name": "Marco Antonio"
+        "hi": "HELLO, ",
+        "my_name": "MY NAME IS",
+        "name": "Marco ",
+        "last_name": "Cardenas",
+        "description": {
+            "first": "I am",
+            "second": "a Software Developer"
+        },
+        "know_me": "Learn more...",
+        "presentation": "From Yaracuy, Venezuela. I have significant experience in developing Web applications and Backend servers. Additionally, I have a set of Android mobile applications built with React Native for personal utilities. I can proudly say I possess a strong service-oriented spirit and excellent communication skills.",
+        "widgets": {
+            "1": {
+                "title": "Years of Experience",
+                "value": "3"
+            },
+            "2": {
+                "title": "Projects Completed",
+                "value": "10"
+            },
+            "3": {
+                "title": "Satisfied Clients",
+                "value": "8"
+            },
+            "4": {
+                "title": "Coffee Consumed",
+                "value": "100"
+            }
+        },
+        "download_cv": "DOWNLOAD CV"
     }
 }

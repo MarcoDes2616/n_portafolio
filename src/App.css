@@ -25,7 +25,7 @@
 }
 
 .header_my_info {
-    padding: 20px;
+    padding: 30px 20px;
     gap: .5rem;
     position: relative;
     z-index: 2;
@@ -33,6 +33,50 @@
 
 .header_my_info span {
     color: var(--primaryHC);
+}
+
+.header_presentation{
+    color: var(--secondaryTC);
+    margin: 1rem 0;
+}
+
+.header_social_media{
+    gap: 1rem;
+}
+
+.header_social_media i {
+    transition: all .5s;
+}
+
+.header_social_media i:hover {
+    filter: drop-shadow(0 0 8px var(--secondaryC));
+}
+
+.primary_btn{
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid var(--secondaryTC);
+    background-color: transparent;
+    color: var(--secondaryTC);
+    font-weight: 900;
+    padding: .4rem 1rem;
+    box-shadow: 2px 2px var(--secondaryTC);
+    transition: all .5s;
+}
+
+.primary_btn:hover{
+    background-color: var(--secondaryTC);
+    color: var(--primaryCC);
+    box-shadow: 2px 2px var(--secondaryC);
+}
+
+.header_download hr{
+    border-color: var(--secondaryTC);
+    margin-left: 1px;
+}
+
+.header_download p{
+    margin-left: 1rem;
 }
 
 
