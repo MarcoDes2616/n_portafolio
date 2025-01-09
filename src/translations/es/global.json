@@ -1,0 +1,32 @@
+{
+    "header": {
+        "hi": "Hola,",
+        "my_name": "mi nombre es",
+        "name": "Marco",
+        "last_name": "Cardenas",
+        "description": {
+            "first": "Soy",
+            "second": "Desarrollador de software"
+        },
+        "presentation": "De Yaracuy, Venezuela, Tengo importante experiencia en el desarrollo de aplicaciones Web, y desarrollo de servidores de Backend. Ademas, tengo un grupo de aplicaciones moviles Android con React Native para utilidades personales. Puedo alardear que poseo un gran espíritu de servicio y habilidades de comunicación.",
+        "download_cv": "Descargar CV",
+        "widgets": {
+            "1": {
+                "title": "Años de experiencia",
+                "value": "3"
+            },
+            "2": {
+                "title": "Proyectos completados",
+                "value": "10"
+            },
+            "3": {
+                "title": "Clientes satisfechos",
+                "value": "8"
+            },
+            "4": {
+                "title": "Café consumido",
+                "value": "100"
+            }
+        }
+    }
+}
