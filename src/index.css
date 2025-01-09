@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
 
 * {
   margin: 0;
@@ -26,7 +26,7 @@
 
 body {
   width: 100%;
-  font-family: "Barlow Condensed";
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-optical-sizing: auto;
   font-weight: 200;
   font-size: 12px;
@@ -35,8 +35,8 @@ body {
   color: var(--primaryTC);
 }
 
-.s_family{
-  font-family: "Oswald", sans-serif;
+.second_font{
+  font-family: "Caveat", serif;
 }
 
 /* universal style text  */
